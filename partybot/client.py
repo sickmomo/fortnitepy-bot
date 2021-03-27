@@ -78,10 +78,10 @@ class ClientCommands(commands.Cog):
     async def clean(self, ctx: fortnitepy.ext.commands.Context) -> None:
         os.system('cls' if 'win' in sys.platform else 'clear')
 
-        print(crayons.cyan(self.bot.message % f'PartyBot made by xMistt. '
-                           'Massive credit to Terbau for creating the library.'))
+        print(crayons.cyan(self.bot.message % f'Sono bello come Raulo. '
+                           'vegovegovego.'))
         print(crayons.cyan(
-            self.bot.message % f'Discord server: https://discord.gg/fnpy - For support, questions, etc.'))
+            self.bot.message % f'Ciao voi chi siete'))
 
         await ctx.send('Command prompt/terminal cleared.')
         print(self.bot.message % f'Command prompt/terminal cleared.')
